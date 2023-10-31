@@ -1,0 +1,210 @@
+*{
+margin: 0;
+}
+@font-face{
+  font-family: Archangelsk ;
+  src:url(/Archangelsk\ font.ttf );
+}
+@font-face{
+  font-family: Roboto ;
+  src:url(/Roboto-Black.ttf );
+}
+.frame{ 
+
+  background: url(../cyberpunk/hero.png);
+  background-repeat:no-repeat;
+  width: 1920px;
+  height: 1000px;
+  flex-shrink: 0;
+  
+  
+}
+.flex{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+position: relative;
+
+}
+
+.logo{
+  margin-top: 20px;
+  margin-left: 320px ;
+  
+}
+.right{
+  display: flex;
+  gap: 0 40px;
+  position: absolute;
+  top: 42px;
+  right: 320px;
+}
+.form{
+  
+  position: relative;
+}
+
+.feet{
+  
+  background-image: url(../cyberpunk/img/grouping.svg);
+  width: 624px;
+  height: 369px;
+  flex-shrink: 0;
+  background-position: absolute;
+  right: 320px;
+  top: 534px;
+
+}
+.form h1{
+  color: #000;
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-weight: 400;
+  width: 484px;
+  margin-left: 1046px;
+  margin-top: 620px;
+ margin-bottom: 25px;
+  
+}
+.form button{
+  margin-left: 1046px;
+  margin-bottom: 70px;
+  display: inline-flex;
+  padding: 19px 50px;
+  align-items: center;
+  gap: 10px;
+  background: #000;
+  cursor: pointer;
+  
+}
+
+.form span{
+
+  color: #F8F200;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; 
+}
+
+.relative{
+  margin-top: 50px;
+ margin-left: 320px;
+
+}
+
+ .relative h2{
+
+color: #000;
+font-family: "Archangelsk";
+font-size: 62px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+ }
+ .relative p{
+
+  color: #777;
+font-family: "Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+width: 952px;
+height: 125px;
+flex-shrink: 0;
+ }
+ .relative span{
+
+  color: #52BEDC;
+font-family:" Roboto";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; 
+
+ }
+ .foto{
+display: flex;
+gap: 0 32px;
+margin-right: 320px;
+padding: 81.8px 320px 0;
+ }
+
+ .selector{
+   background-color: #F8F200;
+
+ }
+ .framepage{
+ 
+  width: 1920px;
+  height: 70px;
+  flex-shrink: 0;
+ }
+ .direction{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 320px;
+ }
+ .contener{margin-left: 32px; ;}
+
+ .contener h2{
+  color: #000;
+  font-family: "Archangelsk";
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 560px;
+}
+.contener p{
+  margin-top: 25px;
+  width: 624px;
+  height: 125px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
+}
+.flexone{
+  
+  margin-top: 31px;
+} 
+.vector{
+
+  margin-left: 320px;
+}
+.flexfour{
+  display: flex;
+  gap: 25px;
+  margin-left: 362px;
+}
+.nine{
+  margin-bottom:;
+}
+.wrapper button{
+  display: inline-flex;
+  height: 59px;
+  padding: 15px 50px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #000;
+  cursor: pointer;
+  margin-left: 74px;
+}
+.wrapper span{
+
+  color: #F8F200;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
